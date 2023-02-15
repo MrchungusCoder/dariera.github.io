@@ -1,0 +1,120 @@
+
+
+
+
+.seccion{
+    width: 50%;
+    margin: auto;
+}
+
+
+
+#seccionredes{
+    text-align: center;
+}
+
+#seccionhabilidades table {
+    margin: 0 auto;
+    
+}
+
+
+#seccionhabilidades table td{
+    text-align: center;
+}
+
+
+
+.seccion {
+    background-color: white;
+    padding: 2%;
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 
+                0 1px 4px rgb(0 0 0 / 24%)
+    
+}
+
+section h2 {
+    color: #0BCC7B;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+
+#secciondatos p {
+    font-size: 1.4rem;
+    margin-top: 6%;
+    color: #373B41;
+}
+
+#secciongaleria {
+    display: flex;
+    flex-direction: column;
+}
+
+#secciongaleria img{
+    padding: 15px 0;
+}
+
+
+#prueba {
+    display: flex;
+    justify-content: space-between;
+}
+
+#prueba_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+#seccionformulario--formulario {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.seccionformulario--mapa h3{
+    margin: 0 0;
+}
+
+
+.label_form {
+    display:flex;
+    flex-direction: column;
+    padding: 15px 0;
+}
+
+.separador {
+    margin: 4px 0;
+}
+
+#seccionfooter address{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
