@@ -1,0 +1,437 @@
+
+:root{
+  --main-color:#ffd000;
+  --secondary-color: #2937f0;
+  --box-shadow_sections: -8px -9px 20px 20px rgb(0 0 0 / 29%);
+}
+
+ul{
+  list-style: none;
+}
+li a{
+  text-decoration: none;
+}
+
+section, aside{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+
+  .titles_1{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+  }
+
+  .titles{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  img{
+    height: auto;
+    width: 100%;
+  }
+/* -----NAVBAR----  */
+
+#mainNav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #fff;
+  }
+.navbar-brand {
+    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: var(--main-color);
+}
+.navbar-brand:hover, .navbar-brand:active {
+    color: var(--secondary-color);
+  }
+  #mainNav .navbar-toggler {
+    font-size: 0.875rem;
+    padding: 0.75rem 1rem;
+    color: #212529;
+  }
+  .nav-link {
+    color: #212529;
+  }
+.nav-link:hover {
+    color: #6c757d;
+  }
+/*.nav-link.active {
+    color: #2937f0;
+  }*/
+.btn-color{
+    color: white;
+    background-color: var(--main-color);
+}
+
+
+
+/* -----HERO----  */
+
+.main_header {
+    font-size: 2.6rem;
+}
+.span_header {
+    font-size: 1rem;
+}
+
+.icon_edit {
+    margin-left: .5rem;
+}
+
+#hero_2 {
+  /*
+  padding-top: 11rem !important;
+  padding-bottom: 7rem !important;*/
+  background: linear-gradient(to right, rgba(89, 201, 139, 0.5),
+  rgba(201, 193, 89, 0.5)), url("../images/pexels-oliver-sjöström-1078983.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: var(--box-shadow_sections);
+  height: 70vh;
+  width: 100%;
+}
+
+/* -----TOP DESTINATIONS------*/
+
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.destination_title {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.section-span{
+  color: var(--main-color);
+}
+
+.titles_1::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+
+.section-title p {
+  margin-bottom: 0;
+  font-size: 1rem;
+  color: #919191;
+}
+
+.card{
+  border: none !important;
+  margin: auto;
+}
+
+.card-body{
+  padding-bottom: 1.7rem;
+}
+
+.card-span{
+  font-weight:600;
+}
+
+.icon_edit_2 {
+  margin-right: .5rem;
+}
+
+/*------TESTIMONIALS-----*/
+
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+.bg-gradient-primary-to-secondary {
+  background: #ffd000 !important;
+  box-shadow: -10px 5px 20px 0px rgb(0 0 0 / 29%);
+
+}
+
+.font-alt {
+  font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+
+
+/* -----FEATURES------*/
+
+.features {
+  padding-top: 2rem !important;
+  padding-bottom: 9rem !important;
+}
+
+.font-alt {
+  font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  margin-top: 1rem;
+}
+
+.text_edit{
+  color: rgb(155, 155, 155);
+}
+
+.icon_edit_card_2{
+  margin: 0 .4rem;
+}
+
+.reserves_cont, .text_edit{
+  margin: .4rem 0 !important;
+}
+
+.reservers_span{
+  margin-left: .4rem !important;
+}
+
+.side_1{
+  color: rgb(155, 155, 155);
+}
+
+.card_body_edit {
+  padding-bottom: 1rem;
+}
+
+.progress_card{
+  margin-top: 2rem;
+}
+
+.progress_edit{
+  background-color: var(--secondary-color);
+}
+
+/* -----ABOUT US------*/
+
+.about{
+  padding-top: 8rem !important;
+}
+.card_items {
+  padding: 1rem .5rem !important;
+}
+
+.items_title{
+  margin: 0 !important;
+}
+
+.icon_edit_item{
+  margin-right: 2rem;
+  color: var(--main-color);
+}
+
+
+
+
+
+/* -----TESTIMONIAL / OUR CLIENTS------*/
+
+.testimonial{
+  position: relative;
+  background: linear-gradient(to right, rgba(89, 201, 139, 0.5),
+  rgba(201, 193, 89, 0.5)), url("../images/pexels-vincent-gerbouin-1174732.jpg");
+  background-position: 50% 60%;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  box-shadow: -10px 5px 20px 0px rgb(0 0 0 / 29%);
+  padding-bottom: 4rem;
+  height: 60vh;
+  width: 100%;
+  margin: auto;
+}
+
+
+.test-img {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.carousel-inner{
+  max-width: 1050px;
+  margin: auto;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+.section-title_testimonial{
+  text-align: center;
+}
+.testimonials_title{
+  padding-bottom: 10px;
+
+}
+
+.clients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img_clients{
+  width: 50%;
+  margin: 1.2rem 0;
+}
+
+
+
+/* -----CALL TO ACTION------*/
+
+.cta {
+  max-width: 620px;
+  margin: auto;
+  width: 100%;
+
+}
+
+.cta_p{
+  text-align: center;
+  margin: 2rem 0;
+}
+
+/* -----FOOTER------*/
+
+
+#footer {
+  background: #2c3136;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+#footer h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+#footer p {
+  font-size: 15;
+  font-style: italic;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+#footer .social-links {
+  margin: 0 0 40px 0;
+}
+
+#footer .social-links i {
+  font-size: 18px;
+  display: inline-block;
+  background: var(--main-color);
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .social-links i:hover{
+  background-color: white;
+  color: #212529;
+}
+
+#footer .copyright {
+  margin: 0 0 5px 0;
+}
+
+#footer .credits {
+  font-size: 13px;
+}
+
+.contact-info-links-list a{
+  color: white !important;
+}
+
+.contact-info-links-list a:hover{
+  color: var(--main-color) !important;
+}
+
+.contact-info-links-list{
+  padding-left: 0 !important;
+}
+
+
+/* -----MEDIA QUERIES------*/
+
+
+@media (max-width: 320px) {
+
+  .card_feature_edit, .progress_card {
+    width: 13rem !important;
+  }
+
+
+}
+
+@media (max-width: 428px){
+  .card_dest_edit{
+    width: 13rem;
+  }
+}
+
+
+@media (min-width: 728px) {
+  /*
+  .progress_card {
+    width: 11rem !important;
+    position: absolute;
+    top: 50%;
+    left: 329px;
+    right: 0;
+    transform: translateY(-50%) !important;
+  }*/
+
+  #hero_2 {
+    background-position: 50% 60%;
+  }
+
+}
+
+@media (max-width: 768px){
+  .display_adm {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .main_header{
+    font-size: 3.5rem !important;
+  }
+  .span_header {
+    font-size: 1.2rem;
+}
+}
+
+/*
+@media (min-width:992px){
+  .progress_card{
+    position: absolute;
+    top: 50%;
+  }
+}
+*/

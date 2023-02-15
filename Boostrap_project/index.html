@@ -1,0 +1,564 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sephirot travelling page</title>
+
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
+
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="public/stylesheets/style.css">
+    
+   
+
+</head>
+<body>
+    <!-- **NAVBAR** -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+        <div class="container px-5">
+            <a class="navbar-brand fw-normal" href="#page-top">Sephirot</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                
+                <i class="bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Info</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Tours</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#download">About us</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Contact</a></li>
+                </ul>
+                <button class="btn btn-color rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+                    <span class="d-flex align-items-center">
+                        <!--<i class="bi-chat-text-fill me-2"></i>-->
+                        <span class="small">Log In</span>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- **HERO** -->
+
+    <section id="hero_2" class="position-relative">
+        
+        <div class="container text-light px-4 position-absolute top-50 start-50 translate-middle content_hero">
+            <div class="row align-items-center gy-3">
+                <div class="col-lg-12">
+                    <h1 class="main_header">Discover the beauty of the world</h1>
+                    <span class="span_header d-block">
+                        Lets start your journey with us, let your dream will come true with amazing travel destinations activities and more...
+                    </span>
+                    <button class="btn btn-color rounded-pill px-3 py-2 mb-2 mb-lg-0 mt-3 " data-bs-toggle="modal" data-bs-target="#feedbackModal">
+                        <span class="d-flex align-items-center">
+                            <span class="small">Explore destinations</span>
+                            <i class="bi bi-arrow-right-circle icon_edit"></i>
+                        </span>
+                    </button>
+                </div>
+
+                <!--
+                <div class="display_adm">
+                    <div class="col-lg-12 d-flex">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle rounded-pill" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Accommodation
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+    
+                        <form class="d-flex" role="search">
+                            <button class="btn btn-color" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+                -->
+                
+            </div>
+            
+
+        </div>
+
+
+
+    </section>
+
+
+    <!--**TOP DESTIONATIONS**-->
+    <section id="destinations">
+
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-md-3 g-4 px-5">
+
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="section-title">
+                        <h2 class="destination_title titles_1"> <span class="section-span">Our</span> destinations</h2>
+                        <p>The best must-see places on travelers' lists</p>
+                    </div>                
+                </div>
+
+
+                <div class="col-sm-12 col-md-4">
+                    <div class="card text-center shadow rounded-top rounded-4 card_dest_edit">
+                      <img src="public/images/pexels-luiz-gonçalves-13108225.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Sevilla, Spain</h5>
+                        <p class="card-text"> <span class="card-span">$2000.00</span></p>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-airplane-fill icon_edit_2" viewBox="0 0 16 16">
+                                <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Z"/>
+                            </svg>
+                            <span class="small">15 days trip</span>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <div class="card text-center shadow rounded-top rounded-4 card_dest_edit">
+                      <img src="public/images/pexels-luiz-gonçalves-13108057.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Paris, France</h5>
+                        <p class="card-text"> <span class="card-span">$1500.00</span></p>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-airplane-fill icon_edit_2" viewBox="0 0 16 16">
+                                <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Z"/>
+                            </svg>
+                            <span class="small">9 days trip</span>
+                        </div>
+                      </div>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <div class="card text-center shadow rounded-top rounded-4 card_dest_edit">
+                      <img src="public/images/pexels-luiz-gonçalves-13108232.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Brussels, Belgium</h5>
+                        <p class="card-text"> <span class="card-span">$1000.00</span></p>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-airplane-fill icon_edit_2" viewBox="0 0 16 16">
+                                <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Z"/>
+                            </svg>
+                            <span class="small">7 days trip</span>
+                        </div>
+                      </div>
+
+                    </div>
+                </div>
+
+
+        </div>
+
+    </section>
+
+     <!--TESTIMONIAL COMPANY-->
+    <aside class="text-center bg-gradient-primary-to-secondary">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-xl-8">
+                    <div class="h2 fs-1 text-white mb-4">"An intuitive solution to a common problem that we all face, wrapped up in a single app!"</div>
+                    <img src="public/images/tnw-logo.svg" alt="..." style="height: 3rem" />
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!--ABOUT US-->
+    <section class="about">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <div class="section-title">
+                        <h2 class="destination_title titles_1"> <span class="section-span">Why</span> Sephirot</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Aperiam enim dolore sunt totam rerum. Error harum quae voluptas 
+                            quam assumenda minima ratione aliquid repellat, fugit sequi magni 
+                            in ex adipisci.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Aperiam enim dolore sunt totam rerum. Error harum quae voluptas 
+                            quam assumenda minima ratione aliquid repellat, fugit sequi magni 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ration
+                            e quisquam nihil adipisci quos asperiores beatae accusamus! 
+                            Quod deserunt, vitae illum qui quas nisi vel quis libero, hic velit quaerat?
+                            Omnis ration
+                            e quisquam nihil adipisci quos asperiores beatae accusamus! 
+                            Quod deserunt, vitae illum qui quas nisi vel quis libero, hic velit quaerat?
+                        </p>
+                        
+                    </div>                
+                </div>
+
+                <div class="col-sm-12 col-lg-5 mt-4">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+                        <div class="col col-md-6 col-lg-12">
+                          <div class="card shadow rounded-4 " style="width: 16rem;">
+                            <div class="card-body d-flex justify-content-center align-items-center card_items">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="icon_edit_item bi bi-emoji-smile" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                    <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+                                  </svg>
+                              <div class="other_items">
+                                <h3 class="items_title">3650+</h3>
+                                <h5 class="card-title card_about_title">Customers</h5>
+                              </div>
+                              
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col col-md-6 col-lg-12">
+                            <div class="card shadow rounded-4 " style="width: 16rem;">
+                              <div class="card-body d-flex justify-content-center align-items-center card_items">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="icon_edit_item bi bi-person-check" viewBox="0 0 16 16">
+                                    <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+                                    <path d="M8.256 14a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Z"/>
+                                  </svg>
+                                <div class="other_items">
+                                  <h3 class="items_title">90+</h3>
+                                  <h5 class="card-title card_about_title">Destinations</h5>
+                                </div>
+                                
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col col-md-12 col-lg-12">
+                            <div class="card shadow rounded-4 " style="width: 16rem;">
+                              <div class="card-body d-flex justify-content-center align-items-center card_items">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="icon_edit_item bi bi-star-fill" viewBox="0 0 16 16">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg>
+                                <div class="other_items">
+                                  <h3 class="items_title">4.7</h3>
+                                  <h5 class="card-title card_about_title">4760 Reviews</h5>
+                                </div>
+                                
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--**FEAUTURES**-->
+
+    <section class="features">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-sm-12 col-lg-12">
+                    <div class="section-title">
+                        <h2 class="destination_title titles_1"> <span class="section-span ">Four</span> amazing services</h2>
+                    </div>        
+                </div>
+            </div>
+            <div class="row gx-5 align-items-center">
+
+                <div class="col-lg-7 order-lg-0 mb-5 mb-lg-0">
+                    <div class="container-fluid px-5">
+                        <div class="row gx-5">
+                            <div class="col-md-6 mb-5">
+                                <!-- Feature item-->
+                                <div class="text-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707zm0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707zm-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707z"/>
+                                    </svg>
+                                    <h3 class="font-alt">Wide variaty of destinations</h3>
+                                    <p class="text-muted mb-0">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-5">
+                                <!-- Feature item-->
+                                <div class="text-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-bank" viewBox="0 0 16 16">
+                                        <path d="m8 0 6.61 3h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.38l.5 2a.498.498 0 0 1-.485.62H.5a.498.498 0 0 1-.485-.62l.5-2A.501.501 0 0 1 1 13V6H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 3h.89L8 0ZM3.777 3h8.447L8 1 3.777 3ZM2 6v7h1V6H2Zm2 0v7h2.5V6H4Zm3.5 0v7h1V6h-1Zm2 0v7H12V6H9.5ZM13 6v7h1V6h-1Zm2-1V4H1v1h14Zm-.39 9H1.39l-.25 1h13.72l-.25-1Z"/>
+                                    </svg>
+                                    <h3 class="font-alt">No fees</h3>
+                                    <p class="text-muted mb-0">Put an image, video, animation, or anything else in the screen!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-5 mb-md-0">
+                                <!-- Feature item-->
+                                <div class="text-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-bicycle" viewBox="0 0 16 16">
+                                        <path d="M4 4.5a.5.5 0 0 1 .5-.5H6a.5.5 0 0 1 0 1v.5h4.14l.386-1.158A.5.5 0 0 1 11 4h1a.5.5 0 0 1 0 1h-.64l-.311.935.807 1.29a3 3 0 1 1-.848.53l-.508-.812-2.076 3.322A.5.5 0 0 1 8 10.5H5.959a3 3 0 1 1-1.815-3.274L5 5.856V5h-.5a.5.5 0 0 1-.5-.5zm1.5 2.443-.508.814c.5.444.85 1.054.967 1.743h1.139L5.5 6.943zM8 9.057 9.598 6.5H6.402L8 9.057zM4.937 9.5a1.997 1.997 0 0 0-.487-.877l-.548.877h1.035zM3.603 8.092A2 2 0 1 0 4.937 10.5H3a.5.5 0 0 1-.424-.765l1.027-1.643zm7.947.53a2 2 0 1 0 .848-.53l1.026 1.643a.5.5 0 1 1-.848.53L11.55 8.623z"/>
+                                      </svg>
+                                    <h3 class="font-alt">Free transport</h3>
+                                    <p class="text-muted mb-0">As always, this theme is free to download and use for any purpose!</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <!-- Feature item-->
+                                <div class="text-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                        <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                                    </svg>
+                                    <h3 class="font-alt">Easy booking</h3>
+                                    <p class="text-muted mb-0">Since this theme is MIT licensed, you can use it commercially!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 order-lg-1 status_card position-relative">
+                    <div class="card shadow rounded-top rounded-4 card_feature_edit " style="width: 18rem;">
+                        <img src="public/images/pexels-david-buchi-1054417.jpg" class="card-img-top" alt="...">
+                        <div class="card-body card_body_edit">
+                            <h5 class="card-title">Trip to New Zealand</h5>
+                            <p class="card-text">01-12 May | By Avianca</p>
+
+                            <div class="text_edit">
+                                <i class="icon_edit_card bi bi-bookmark-check-fill" ></i>
+                                <i class="icon_edit_card_2 bi bi-binoculars"></i>
+                                <i class="icon_edit_card bi bi-calendar-check"></i>
+                            </div>
+                            
+                            <div class="reserves_cont d-flex justify-content-between">
+                                <div class="side_1">
+                                    <i class="bi bi-person-lines-fill"></i>
+                                    <span class="reservers_span">33 people going</span>
+                                </div>
+
+                                <div class="side_2">
+                                    <i class="bi bi-heart" style="color:red"></i>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card progress_card shadow rounded-4 " style="width: 18rem;">
+                        <div class="card-body">
+                          <h5 class="card-title">Trip to New Zealand</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">On going</h6>
+                          
+                          <span class="percentage_span">25% completed</span>
+                          <div class="progress"  role="progressbar" aria-label="Example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 9px">
+                            <div class="progress-bar progress_edit" style="width: 25%"></div>
+                          </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--TESTIMONIAL / OUR CLIENTS-->
+
+    <section class="testimonial position-relative">
+
+        <div class="cont_cont">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title_testimonial">
+                            <h2 class="titles_1 testimonials_title"> <span class="section-span">What</span> our customers say?</h2>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+    
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+    
+                    <div class="carousel-item active">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Impedit fugiat maiores quasi, maxime dolorum rerum ducimus, 
+                            ab, natus illum vel asperiores dicta fuga. Officia explicabo 
+                            deleniti debitis, velit pariatur maiores.
+                        </p>
+                        <img src="public/images/pexels-mwabonje-1820559.jpg" alt="person-profile" class="test-img">
+                        <em>Merry, New York</em>
+                    </div>
+    
+                    <div class="carousel-item">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Impedit fugiat maiores quasi, maxime dolorum rerum ducimus, 
+                            ab, natus illum vel asperiores dicta fuga. Officia explicabo 
+                            deleniti debitis, velit pariatur maiores.
+                        </p>
+                        <img src="public/images/pexels-yuri-manei-2690323.jpg" alt="person-profile" class="test-img">
+                        <em>Donna, Peking</em>
+                    </div>
+    
+                    <div class="carousel-item">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Impedit fugiat maiores quasi, maxime dolorum rerum ducimus, 
+                            ab, natus illum vel asperiores dicta fuga. Officia explicabo 
+                            deleniti debitis, velit pariatur maiores.
+                        </p>
+                        <img src="public/images/pexels-driss-oub-14662833.jpg" alt="person-profile" class="test-img">
+                        <em>Yuri, Buenos Aires</em>
+                    </div>
+    
+                </div>
+    
+    
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+    
+
+        </div>
+
+
+
+    </section>
+
+
+    <!--CALL TO ACTION-->   
+
+    <section class="cta">
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <div class="section-title_testimonial">
+                        <h2 class="titles cta_title"> 
+                        <span class="section-span">Subscribe</span> and be updated!</h2>
+                    </div>      
+
+                    <p class="cta_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quibusdam magni repellendus labore sapiente asperiores quaerat, 
+                        cupiditate aut id odio vel, 
+                        eaque totam amet rerum, earum optio voluptate qui
+                         error exercitationem!
+                    </p>
+
+                    <form class="d-flex justify-content-center" role="search">
+                        <input  class="input_edit_cta form-control me-2 rounded-pill" type="search" placeholder="Please enter your email adress" aria-label="Search">
+                        <button class="btn_edit_cta btn btn-color rounded-pill" type="submit">Subscribe</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+      <!-- ======= Footer ======= -->
+  <section id="footer">
+        <div class="container">
+
+            <div class="row justify-content-center align-items-center text-center">
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <h3>Sephirot</h3>
+                    <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>        
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <ul class="contact-info-links-list">
+                        <li> <a href="#">About Us</a> </li>
+                        <li> <a href="#">Jobs</a> </li>
+                        <li> <a href="#">Press</a> </li>
+                        <li> <a href="#">Blog</a> </li>
+                    </ul>
+                    <ul class="contact-info-links-list">
+                        <li> <a href="#">Contact Us</a> </li>
+                        <li> <a href="#">Terms</a> </li>
+                        <li> <a href="#">Privacy</a> </li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="social-links">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-whatsapp"></i>
+                        <i class="bi bi-instagram"></i>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="copyright">
+                        &copy; Copyright <strong><span>Sephirot</span></strong>. All Rights Reserved
+                    </div>
+                    <div class="credits">
+                        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                    </div>
+                </div>
+
+            </div>
+ 
+        </div>
+  </section>
+
+    <script src="public/main.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
